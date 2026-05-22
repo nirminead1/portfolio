@@ -1,0 +1,39 @@
+baseURL = "https://nirmineadnane.com/"
+languageCode = "fr"
+title = "Nirmine Adnane — Portfolio"
+
+[params]
+  description = "Portfolio de Nirmine Adnane, étudiante ingénieure à l'INPT Rabat. Spécialisée en développement web, systèmes embarqués, IoT, RFID et FPGA."
+  author = "Nirmine Adnane"
+  
+  [params.social]
+    github = "https://github.com/nirminead1"
+    linkedin = "https://www.linkedin.com/in/nirmine-adnane-a00061389/"
+    email = "nirmineadnane7@gmail.com"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "À propos"
+    url = "#about"
+    weight = 10
+  [[menu.main]]
+    identifier = "skills"
+    name = "Compétences"
+    url = "#skills"
+    weight = 20
+  [[menu.main]]
+    identifier = "education"
+    name = "Formation"
+    url = "#education"
+    weight = 30
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projets"
+    url = "#projects"
+    weight = 40
+  [[menu.main]]
+    identifier = "contact"
+    name = "Me contacter"
+    url = "#contact"
+    weight = 50
